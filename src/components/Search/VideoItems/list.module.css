@@ -1,0 +1,17 @@
+.svg {
+    width: 30px;
+    height: 30px;
+}
+.wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.list {
+    display: block;
+    margin-left: 20px;
+}
+.list,.grid {
+    cursor: pointer;
+}

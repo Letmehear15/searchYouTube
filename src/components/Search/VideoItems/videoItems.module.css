@@ -1,0 +1,39 @@
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-bottom: 30px;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.itemList {
+    display: flex;
+    margin-bottom: 30px;
+}
+.descrWrap {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.itemImg {
+    display: block;
+}
+.title {
+    display: block;
+    font-weight: bold;
+    margin-top: 5px;
+    color: rgb(190, 190, 190);
+}
+.descr {
+    display: block;
+    margin-top: 10px;
+}

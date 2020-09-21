@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+    background-color: rgb(117, 151, 182);
+}
+
+.left {
+    display: flex;
+}
+
+.left a,
+.logout a{
+    display: block;
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.active {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fff;
+}

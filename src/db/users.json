@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "login": "Alex",
+      "password": "alex"
+    },
+    {
+      "id": "2",
+      "login": "Lina",
+      "password": "lina"
+    }
+  ],
+  "favorites": [
+    {
+      "text": "capture the crown",
+      "userId": "2",
+      "id": "1599311363534"
+    },
+    {
+      "text": "asking alexandria",
+      "userId": "1",
+      "id": "1600676039390"
+    },
+    {
+      "text": "wildways",
+      "userId": "1",
+      "id": "1600685082624"
+    },
+    {
+      "text": "govno",
+      "userId": "1",
+      "id": "1600688732077"
+    },
+    {
+      "userId": "1",
+      "id": "1600689590606",
+      "text": "матрицы по математике"
+    }
+  ]
+}
