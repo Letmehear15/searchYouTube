@@ -1,4 +1,4 @@
-import React, { Dispatch, FC } from "react";
+import React, { Dispatch, FC, useEffect } from "react";
 import {getVideo,setSearchText,setIsFavorite} from '../../redux/reducers/searchReducer'
 import {addFavorite} from '../../redux/reducers/favoriteReducer'
 import { connect } from "react-redux";
@@ -52,7 +52,7 @@ const SearchContainer:FC<CommonProps> = ({getVideo, videos, searchText, setSearc
                 setIsFavorite={setIsFavorite}
             />
             {videos.length?<ShowList setShow={setShow}/>:''}
-            {modalMode&&isFavorite&&<Modal readOnly onAddFavorite={onAddFavorite} setModal={setModal} title={'Save'} inputText={searchText}/>}
+            {modalMode&&isFavorite&&<Modal readOnly onAddFavorite={onAddFavorite} setModal={setModal} title={'Sve'} inputText={searchText}/>}
             <VideosItems showMode={showMode} videos={videos}/>
         </div>
     )

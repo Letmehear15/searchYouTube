@@ -13,11 +13,6 @@
   ],
   "favorites": [
     {
-      "text": "capture the crown",
-      "userId": "2",
-      "id": "1599311363534"
-    },
-    {
       "text": "learn react",
       "userId": "1",
       "id": "1600707789413"
@@ -26,6 +21,16 @@
       "userId": "1",
       "id": "1600707833511",
       "text": "slipknot"
+    },
+    {
+      "text": "gdg",
+      "userId": "1",
+      "id": "1602152155874"
+    },
+    {
+      "userId": "2",
+      "id": "1602249506538",
+      "text": "i will love you like the sun loves california"
     }
   ]
 }

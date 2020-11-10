@@ -19,3 +19,4 @@ export type AllActions<T> = T extends {[key:string]: infer U} ? U : never
 export type ActionThunkType<A extends Action, P = Promise<void>> = ThunkAction<P, RootState, unknown, A>
 
 export default store;
+
